@@ -1,0 +1,104 @@
+import javax.swing.JOptionPane;
+public class song_lyrics_theeStallion {
+    public static void main (String []args){
+        int choice;
+
+        System.out.println("\n\n");
+       String  choiceString =JOptionPane.showInputDialog("Pick a Megan Thee Stallion song"+
+            "\n\t1 = Savage"+
+            "\n\t2 = Body"+
+            "\n\t3 = Th*t Sh*t"+
+            "\n\t4 = Circles"+
+            "\n\t5 = Hot Girl Summer");
+            choice=Integer.parseInt(choiceString);  // coverts string to an int
+
+
+        if (choice==1)
+            {JOptionPane.showMessageDialog(null," You've chosen  Savage. \n\n" +
+                "\t[Intro] \n"+
+           "I'm that b*tch (Yeah) \n"+
+            "Been that b*tch, still that b*tch (Ah)\n"+
+           "Will forever be that b*tch (Forever be that b*tch)\n"+
+            "Yeah (Ayy, ah)\n"+
+            
+            "\t[Verse 1]\n"+
+            "I'm the hood Mona Lisa, break a n*gga into pieces\n"+
+            "Had to X some cheesy n*ggas out my circle like a pizza (Yeah)\n"+
+            "I'm way too exclusive, I don't shop on Insta' boutiques\n"+
+            "All them lil' a*s clothes only fit fake booties\n"+
+            "Bad b*tch, still talking cash sh*t\n"+
+            "p*ssy like water, I'm unbothered and relaxing\n"+
+            "I would never trip on a n*gga if I had him\n"+
+            "b*tch, that's my trash, you the maid, so you bagged him, ah\n"+
+            
+            "\n\t[Chorus]\n"+
+            "I'm a savage (Yeah)\n"+
+            "Classy, bougie, ratchet (Yeah)\n"+
+            "Sa*sy, moody, nasty (Hey, hey, yeah)\n"+
+            "Acting stupid, what's happening? (Woah, woah)\n"+
+            "b*tch, what's happening? (Woah, woah)\n"+
+            "b*tch, I'm a savage, yeah\n"+
+            "Classy, bougie, ratchet, yeah\n"+
+            "Sa*sy, moody, nasty, huh\n"+
+            "Acting stupid, what's happening?\n"+
+            "b*tch, what's happening? (Ayy, ah)\n"+
+            
+            
+            "\t[Verse 2]\n"+
+            "Eat me and record it, but your edge-up all I'm showing (Ah)\n"+
+            "I keep my n*ggas private, so his AP all I'm showing (Baow)\n"+
+            "Beefing with you b*tches really getting kinda boring\n"+
+            "If it ain't about the money, then you know I'm gon' ignore it\n"+
+            "I'm the sh*t, ooh (Ayy)\n"+
+            "I need a mop to clean the floor, it's too much drip, ooh (Too much drip, ooh)\n"+
+            "I keep a knot, I keep a watch, I keep a whip, ooh (I keep a whip, baow)\n"+
+            "Let's play a game, Simon says I'm still that b*tch, ayy (Still that b*tch)\n"+
+            "I'm still that b*tch, yeah (Ah)\n"+
+            
+            "\t[Chorus]\n"+
+            "I'm a savage\n"+
+            "Classy, bougie, ratchet (Yeah)\n"+
+            "Sa*sy, moody, nasty (Yeah)\n"+
+            "Acting stupid, what's happening? (What's up?)\n"+
+            "b*tch, what's happening? (What's up?)\n"+
+            "b*tch, I'm a savage, yeah\n"+
+            "Classy, bougie, ratchet, yeah (b*tch)\n"+
+            "Sa*sy, moody, nasty, huh\n"+
+            "Acting stupid, what's happening? (What's up?)\n"+
+            "b*tch, what's happening?\n"+
+            
+            "\t[Verse 3]\n"+
+            "b*tch, I'm lit like a match, ooh\n"+
+            "And any n*gga I let hit is still attached, ooh\n"+
+            "That body right, but you know this p*ssy fat, ooh\n"+
+            "I drop a picture, now these b*tches feel attacked, ayy\n"+
+            "Don't let that n*gga gas you up and get you whacked, ooh\n"+
+            "I make a call and get a p*ssy n*gga smacked, uh\n"+
+            "These b*tches talkin' 'bout pulling up, well, where you at? Ooh\n"+
+            "I'm in a Lam', b*tch, catch me if you can, ooh\n"+
+            "I'm kickin' b*tches out they spot, Stalli' Chan, yeah (Ah, yeah)\n"+
+            
+            
+            "\t[Outro]\n"+
+            "n*ggas say I taste like sugar, but ain't sh*t sweet (Ah)\n"+
+            "Mwah\n"+
+            "Ayy, ayy, ooh, ooh, ooh, ooh, mwah\n");}
+
+            
+        else if (choice==2)
+            {JOptionPane.showMessageDialog(null," You've chosen \" Body\".\n Lyrics Pending...");}
+
+
+        else if (choice==3)
+            {JOptionPane.showMessageDialog(null," You've chosen \" Th*t Sh*t \".\n Lyrics Pending...");}
+            
+       
+        else if (choice==4)
+            {JOptionPane.showMessageDialog(null," You've chosen \" Circles \".\n Lyrics Pending...");}
+
+       
+        else if (choice==5)
+             {JOptionPane.showMessageDialog(null," You've chosen \" Hot Girl Summer \".\n Lyrics Pending...");}
+            
+    }
+    } 
